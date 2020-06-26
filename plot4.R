@@ -35,6 +35,7 @@ plot(datetimes, gap,
 #second subplot
 volt <- power[correct_dates, "Voltage"]
 plot(datetimes, volt,
+     ylab = "Voltage",
      xlab = "datetime",
      type = "l"
 )
@@ -70,6 +71,7 @@ legend("topright",
 #fourth subplot
 grp <- power[correct_dates, "Global_reactive_power"]
 plot(datetimes, grp,
+     ylab = "Global_reactive_power",
      xlab = "datetime",
      type = "l"
 )
