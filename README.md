@@ -1,3 +1,8 @@
+# Introduction
+
+This repo contains 4 R scripts, (plot1, plot2, etc.). Each outputs a corresponding figure that can be found in the figure sub folder. The remainder of this README introduces the assignment. 
+
+
 ## Introduction
 
 This assignment uses data from
