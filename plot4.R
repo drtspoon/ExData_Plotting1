@@ -65,7 +65,8 @@ lines(datetimes, submeters[,3],
 legend("topright", 
        lty = 1,
        col = c("black", "red", "blue"),
-       legend = names(submeters)
+       legend = names(submeters),
+       box.lty = 0
 )
 
 #fourth subplot
